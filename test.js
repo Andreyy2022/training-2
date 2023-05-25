@@ -1,3 +1,9 @@
-console.log(_);
-
-console.log( _.first([7, 1, 2, 3, 4, 5]) );
+$(document).ready(function() {
+    $('.your-class').slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        slidesToScroll: 1
+    });
+});
